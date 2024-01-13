@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-###open project:https://shashikant17092003.github.io/weatherApp/
+### open project:https://shashikant17092003.github.io/weatherApp/
 
 ## Available Scripts
 
