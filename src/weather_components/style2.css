@@ -1,0 +1,147 @@
+.element-box{
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.element-search{
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 35px;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+
+    padding: 0;
+}
+.search-Box{
+    margin: 0;
+    width: 75%;
+    height: 35px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(74, 74, 195);
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 1%;
+    height: 30px;
+    width: 30px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(74, 74, 195);
+    border-radius: 50%;
+}
+.element-result{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    color: rgb(190, 189, 189);
+    justify-content: center;
+    align-items: center;
+}
+.weather-temprature-icon{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    padding: 1%;
+    height: 70px;
+    width: 70px;
+    margin-bottom: 20%;
+    align-items: center;
+}
+.weather-temprature-icon img{
+    height: 70px;
+    padding: 0px;
+    margin: 0px;
+}
+.weather-temprature{
+    font-size: 40px;
+}
+.temp-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.weather-location{
+    font-size: 20px;
+}
+.description{
+    margin-top: -30%;
+    font-size: 15px;
+}
+.temp-loca{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.weather-info{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    gap: 1%;
+    margin-bottom: 10%;
+}
+
+.weather-other{
+    width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.other{
+    display: flex;
+    text-align: start;
+}
+.other-icon{
+    font-size: 30px;
+}
+.other-data{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    margin-left: 10px;
+}
+.other-text{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sun-info{
+    margin-top: 10%;
+    display: flex;
+    width: 90%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.sun{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.clock{
+    display: flex;
+    margin-top: 15%;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    width: 90%;
+    font-size: 30px;
+}
